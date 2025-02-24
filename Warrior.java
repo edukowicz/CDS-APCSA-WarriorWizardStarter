@@ -9,12 +9,15 @@ public class Warrior extends Player
    }
 
    // when instructed, add a get method for the armor PIV
+   public int getArmor(){
+      return armor;
+   }
 
 
   //when instructed, modify toString to display the armor PIV in the output
    public String toString()
    {
-      String output = super.toString();
+      String output = super.toString() + "\n" + "Armor: " + armor;
       return output;
    }
 

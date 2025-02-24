@@ -33,10 +33,16 @@ public class Main
     //Testing Modified Warrior
      System.out.println("Testing Updated Warrior Object");
      Warrior player4 = new Warrior();
+     System.out.println(player4);
+     System.out.println(player4.getArmor());
+     System.out.println();
      
     //Testing Modified Wizard 
      System.out.println("Testing Updated Wizard Object");
      Wizard player5 = new Wizard();
+     System.out.println(player5);
+     System.out.println(player5.getSpellDef());
+     System.out.println();
      
      
   }
